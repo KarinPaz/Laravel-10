@@ -28,6 +28,5 @@
     </tbody>
   </table>
 
-  <p><a href="{{ route('laravel.index') }}">← Volver al listado</a></p>
 </body>
 </html>

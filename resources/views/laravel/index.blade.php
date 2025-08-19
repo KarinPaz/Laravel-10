@@ -20,7 +20,7 @@
       @foreach ($registro as $row)
         <tr>
           <td>{{ $row->id }}</td>
-          <td><a href="{{ route('laravel.show', $row->id) }}">{{ $row->nombre }}</a></td>
+          <td>{{ $row->nombre }}</a></td>
           <td>{{ $row->email }}</td>
           <td>{{ $row->telefono ?? '—' }}</td>
         </tr>
