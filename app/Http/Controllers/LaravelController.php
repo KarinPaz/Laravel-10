@@ -8,11 +8,13 @@ class LaravelController extends Controller
 {
     public function index()
     {
-        
+    
         $registro = Laravel::orderBy('id')->get();
 
         return view('laravel.index', compact('registro'));
     }
+
+    
     
       public function show($id)
     {
